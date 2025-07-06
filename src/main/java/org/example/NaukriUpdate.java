@@ -18,7 +18,6 @@ public class NaukriUpdate {
         public static void Logintoaukri() throws InterruptedException {
 
         WebDriver driver = new FirefoxDriver();
-
         // Open the URL
         driver.navigate().to(NaukriURL);
         driver.manage().window().maximize();
